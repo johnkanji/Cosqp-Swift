@@ -1,0 +1,3 @@
+[submodule "Sources/OSQP"]
+	path = Sources/OSQP
+	url = git@github.com:oxfordcontrol/osqp.git
