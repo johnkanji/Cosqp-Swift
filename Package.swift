@@ -14,12 +14,7 @@ let package = Package(
       name: "OSQP",
       dependencies: ["QDLDL"],
       exclude: ["src/osqp/CMakeLists.txt", "include/CMakeLists.txt"],
-      publicHeadersPath: "include",
-      cSettings: [
-        .headerSearchPath("include"),
-        .headerSearchPath("include/qdldl_interface"),
-        .headerSearchPath("include/amd"),
-      ]),
+      publicHeadersPath: "include"),
     .target(
       name: "QDLDL",
       sources: ["src/qdldl.c"],
