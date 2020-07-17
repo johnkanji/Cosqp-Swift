@@ -1,3 +1,3 @@
-# OSQP
+# Cosqp
 
-A description of this package.
+A Swift Package wrapping the [OSQP](https://osqp.org) C library.
