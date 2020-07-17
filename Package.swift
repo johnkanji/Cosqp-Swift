@@ -1,13 +1,13 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-  name: "OSQP",
+  name: "Cosqp",
   products: [
-    .library(name: "OSQP", type: .dynamic, targets: ["OSQP"]),
-    .library(name: "QDLDL", type: .dynamic, targets: ["QDLDL"])
+    .library(name: "Cosqp", type: .dynamic, targets: ["OSQP"]),
+    .library(name: "Cqdldl", type: .dynamic, targets: ["QDLDL"])
   ],
   targets: [
     .target(
