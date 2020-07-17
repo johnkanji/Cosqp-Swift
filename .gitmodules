@@ -1,3 +1,6 @@
 [submodule "Sources/OSQP"]
 	path = Sources/OSQP
 	url = git@github.com:oxfordcontrol/osqp.git
+[submodule "Sources/QDLDL"]
+	path = Sources/QDLDL
+	url = git@github.com:oxfordcontrol/qdldl.git
